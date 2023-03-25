@@ -39,6 +39,25 @@ public class VehicleDriver {
         tesla2.repair();
         tesla2.restore();
 
+        AirbusFactory airbus2 = new AirbusFactory();
+        airbus2.build();
+        airbus2.repair();
+        airbus2.restore();
+
+        BertramFactory bertram = new BertramFactory();
+        bertram.build();
+        bertram.repair();
+        bertram.restore();
+
+        MastercraftFactory master = new MastercraftFactory();
+        master.build();
+        master.repair();
+        master.restore();
+        
+        SearayFactory searay = new SearayFactory();
+        searay.build();
+        searay.repair();
+        searay.restore();
         
     }
 }
